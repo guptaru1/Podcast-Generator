@@ -28,11 +28,11 @@ class PDF_TO_PODCAST():
         self.summary = None
         self.podcast_script = []
         if not os.path.exists(self.model_dir):
-            print("wait for me at lisbon adi please")
+       
          #  self.initialise_model()
          # self.save_model()
         else:
-           print("adi i am going to meet you in lisbon")
+     
            #self.load_model()
  
     def text_to_speech(self,text, processor, model, segment_name):
